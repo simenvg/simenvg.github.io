@@ -1,23 +1,66 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simenvg.github.io</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header class="container">
+  <div class="row">
+    <h1 class="col-sm-4">simenvg.github.io</h1>
+    <nav class="col-sm-8 text-right">
+      <p>New</p>
+      <p>What</p>
+      <p>Contact</p>
+    </nav>
+    
+  </div>
+</header>
+<section class="jumbotron">
+  <div class="container">
+    <div class="row text-center">
+      <h2>I DON'T KNOW HTML OR CSS</h2>
+      <h3>asdfasdfasdf</h3>
+      <a class="btn btn-primary" href="#" role="button">Not a button</a>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="row">
+    <figure class="col-sm-6">
+      <p>Random 1</p>
+      <img src="https://static.pexels.com/photos/289446/pexels-photo-289446.jpeg">
+    </figure>
+    <figure class="col-sm-6">
+      <p>Random 2</p>
+      <img src="https://static.pexels.com/photos/33101/new-wing-emergency-at-the-moment.jpg">
+    </figure>
+  </div>
+  <div class="row">
+    <figure class="col-sm-6">
+      <p>Random 3</p>
+      <img src="https://static.pexels.com/photos/164697/pexels-photo-164697.jpeg">
+    </figure>
+    <figure class="col-sm-6">
+      <p>Random 4</p>
+      <img src="https://static.pexels.com/photos/158230/lizard-urtier-reptile-dry-158230.jpeg">
+    </figure>
+  </div>
+</section>
+  
+<footer class="container">
+  <div class="row">
+    <p class="col-sm-4">&copy; 2076 simenvg</p>
+    <ul class="col-sm-8">
+      <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
+      <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></li>
+      <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
+      <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
