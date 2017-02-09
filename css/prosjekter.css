@@ -29,13 +29,57 @@ header p {
   margin: 0;
 }
 
+.box2 {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: flex;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 40px 60px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    <!--This is a comment. Comments are not displayed in the browser-->
+
+}
+
+.image-wtext {
+    position:relative;
+}
+
+.text-center {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 30px;
+    width: 100%
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://static.pexels.com/photos/21415/pexels-photo-21415.jpg');
+  background-image: url('https://static.pexels.com/photos/103567/pexels-photo-103567.jpeg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 400px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -58,6 +102,10 @@ section .row img {
 
 .col-md-6 {
   margin: 0 0 30px;
+}
+
+.col-md-4 {
+  margin: 0 0 20px;
 }
 
 .btn.btn-primary {
