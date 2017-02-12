@@ -22,6 +22,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
+  text-align:center;
 }
 
 header p {
@@ -53,11 +54,27 @@ header p {
     display: inline-block;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+}
+
+.button2 {
+    background-color: #FFFFFF; /* Green */
+    border: black;
+    color: black;
+    padding: 20px 60px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: bold;
+   
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0px;
 }
 
 .button:hover {
-    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    <!--box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);-->
     <!--This is a comment. Comments are not displayed in the browser-->
+    background-color: #4CA000; /* Green */
 
 }
 
@@ -135,6 +152,7 @@ footer {
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
+
 }
 
 footer ul {
